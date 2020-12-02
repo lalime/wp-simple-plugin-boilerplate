@@ -1,0 +1,32 @@
+<?php
+/*
+Plugin Name: WPPluginName
+Plugin URI:  https://wp-plugin-url.com/
+Description: This plugin adds custom functionalities to the website.
+Version:     1.0
+Author:      Click n Pro
+Author URI:  https://wp-plugin-url.com/
+License:     GPL2 etc
+License URI: 
+
+Copyright YEAR PLUGIN_AUTHOR_NAME (email : your email address)
+WPPluginName is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+ 
+WPPluginName is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with WPPluginName. If not, see (https://wp-plugin-url.com/ to your plugin license).
+*/
+class WPPluginName {
+    public function __construct()
+    {
+    }
+}
+ 
+$wPPluginName = new WPPluginName();
